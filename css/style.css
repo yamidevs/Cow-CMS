@@ -1,0 +1,307 @@
+/*
+CSS par yamisaaf Cow'CMS
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	background-color: #2F2820;
+}
+header{
+	background : url(../img/header/header.png) no-repeat scroll center top transparent;
+	width: 971px;
+	height: 310px;
+	margin: 0 auto;
+	width: auto;
+
+}
+header nav{
+	background: url(../img/header/nav/top.png) repeat-x;
+	width: auto;
+	height: 67px;	
+}
+
+header nav li{
+	display: inline;
+}
+header nav li:hover{
+	display: inline;
+	opacity: 0.7;
+}
+header nav ul .left{
+    margin-left: 20%;
+}
+header nav ul #right{
+	display: inline;
+    margin-left: 40%;
+}
+header #MenuConnexion{
+    background: url(../img/header/nav/menud.png)no-repeat;
+	width: 225px;
+	height: 180px;
+	margin-left: 740px;
+	padding: 15px;
+	display: none;
+}
+header #MenuConnexion #hide{
+	font-size: 30px;
+	position: absolute;
+	text-decoration: none;
+	color: #878340;
+	margin-left: 184px;
+	margin-top: -161px;
+}
+header #MenuConnexion #hide:hover{
+	font-size: 30px;
+	position: absolute;
+	text-decoration: none;
+	color: #878340;
+	margin-left: 184px;
+	margin-top: -161px;
+    opacity: 0.7;
+}
+header #MenuConnexion span{
+   font-family: Comfortaa;
+   font-size: 15px;
+   color: #9e886f;
+}
+header #MenuConnexion form  input[type=text],input[type=password]{
+	background: url(../img/header/connexion/input.png) no-repeat;
+	width: 188px;
+	height: 27px;
+    border: none;
+    padding: 6px;
+
+}
+header #MenuConnexion form  input[type=submit]{
+background: url(../img/header/connexion/connexion.png) no-repeat;
+	width: 147px;
+	height: 29px;
+    border: none;
+    cursor: pointer;	
+}
+header #MenuConnexion form  input[type=submit]:hover{
+background: url(../img/header/connexion/connexion.png) no-repeat;
+	width: 147px;
+	height: 29px;
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;	
+}
+header #MenuConnexion form span{
+	font-family: Verdana; font-size: 11px; color: #c4c84c;
+}
+
+#Main{
+	width: 900px;
+    margin:auto;
+}
+section{
+	margin: 0 auto;
+	width: 700px;
+    margin-top: -60px;
+}
+section figure{
+	background: url(../img/section/figure.png);
+	width: 726px;
+	height: 43px;
+}
+section figure figcaption{
+   font-family: Comfortaa; 
+   font-size: 14px;
+   color: #c4c84c;
+   text-shadow: 0 1px rgba(0,0,0,.5);
+   margin-left: 2px;
+   padding: 11px;
+}
+section .TopContent{
+  background: url(../img/section/TopContent.png);
+  width: 727px;
+  height: 9px;
+}
+section .MiddleContent{
+  background: url(../img/section/MiddleContent.png);
+  width: 727px;
+  height: auto;
+}
+section .MiddleContent article{
+ overflow: auto;
+ padding: 10px 10px;
+
+}
+section .MiddleContent article .avatar{
+  background: url(../img/section/avatar.png);
+  width: 37px;
+  height: 44px;	
+  display: inline-block;
+  text-align: center;
+}
+section .MiddleContent article .avatar span{
+  font-family: Comfortaa;
+  font-size: 15px;
+  font-weight: bold;
+  color: #e8ccac;
+}
+
+section .MiddleContent article .TopArticle{
+  display: inline-block;
+  padding-left: 4px;
+}
+section .MiddleContent article .TopArticle .TopTitre{
+  font-family: Comfortaa;
+  font-size: 18px;
+  color: #c5a887;
+}
+section .MiddleContent article .TopArticle span{
+  font-family: Verdana; 
+  font-size: 11px;
+  font-style: italic;
+  color: #937b5f;
+}
+section .MiddleContent article .New{
+  padding-top: 10px;
+}
+section .MiddleContent article .New .TopNew{
+   background: url(../img/section/TopNew.png) no-repeat;
+   width: 705px;
+   height:6px;
+}
+section .MiddleContent article .New .MiddleNew{
+   background: url(../img/section/MiddleNew.png)repeat-y;
+   width: 705px;
+   height:auto;
+}
+section .MiddleContent article .New .MiddleNew p{
+  font-family: Verdana;
+  font-size: 11px;
+  color: #e8ccac;
+  padding: 4px 3px;
+}
+
+section .MiddleContent article .New .FooterNew{
+   background: url(../img/section/FooterNew.png) no-repeat;
+   width: 705px;
+   height:7px;
+}
+section .FooterContent{
+  background: url(../img/section/FooterContent.png);
+  width: 727px;
+  height: 9px;
+}
+aside{
+  width: 100px;
+  float: left;
+  margin-left: -80px;
+  margin-top: 2px;
+}
+aside .rejoindre:hover{
+  opacity: 0.7;
+}
+aside .boutique:hover{
+  opacity: 0.7;
+}
+aside .Menu{
+	padding-top: 6px;
+
+}
+aside .Menu .TopMenu{
+	background: url(../img/aside/top.png);
+	width: 174px;
+	height: 10px;
+}
+aside .Menu .MenuTopContent{
+	background: url(../img/aside/MenuTopContent.png)repeat-y;
+	width: 174px;
+	height: auto;
+}
+aside .Menu .MenuTopContent .DescTopMenu{
+	background: url(../img/aside/DescTopMenu.png);
+	width: 172px;
+	height: 42px;
+	margin-left: 1px;
+	position: relative;
+	top: -9px;
+}
+aside .Menu .MenuTopContent .DescTopMenu span{
+   padding: 10px 11px;
+   float: left;
+   font-family: Comfortaa; 
+   font-size: 14px;
+   color: #c4c84c;
+   text-shadow: 0 1px rgba(0,0,0,.5);
+}
+aside .Menu .MenuTopContent .MiddleMenu ul li a{
+	font-family: Verdana;
+    font-size: 12px;
+    color: #aba24d;
+    padding: 6px 2px;
+    display: block;
+    margin-left: 2px;
+}
+aside .Menu .MenuTopContent .MiddleMenu ul li a:hover{
+	font-family: Verdana;
+    font-size: 12px;
+    color: #aba24d;
+    padding: 6px 2px;
+    display: block;
+    margin-left: 2px;
+    opacity: 0.7;
+}
+aside .Menu .MenuTopContent .MiddleMenu ul hr{
+	background: url(../img/aside/decoupe-menu.png) no-repeat;
+	width: 172px;
+	height: 2px;
+	margin-left: 1px;
+	margin-top: 4px;
+	border: none;
+	
+}
+aside .Menu .FooterMenu{
+    background: url(../img/aside/FooterMenu.png);
+	width: 174px;
+	height:11px;	
+}
+footer{
+    background: url(../img/footer/footer.png) no-repeat;
+	width: 1030px;
+	height:232px;
+	z-index: 0;	
+	position: relative;
+	left: 160px;
+	top: -2px;
+}
+footer .copyright{
+	width: 605px;
+	height: 110px;
+	background-color: black;
+	opacity: 0.3;
+	color: white;
+	display: block;
+	position: relative;
+	top:80px;
+    margin-left: 300px;
+    border-radius: 5px;
+    text-align: right;
+}
+footer p{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #e8ccac;
+	margin-left: 3px;
+	padding: 2px;
+}
+/*
+ Debut de la Responsive
+*/
+@media screen and (max-width: 500px){
+
+
+	}
+
