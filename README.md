@@ -1,4 +1,4 @@
 Cow-CMS
 =======
 
-Integration design dofus
+Inetgration de Cow'CMS
